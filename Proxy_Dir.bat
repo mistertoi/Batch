@@ -9,7 +9,7 @@
 @REM # verzögerte Variablenexpansion aktivieren
 setlocal enabledelayedexpansion
 
-set /p unterverzeichnis="Bitte gib den Namen des Unterverzeichnisses an, das kopiert werden soll: "
+set /p unterverzeichnis="Bitte gib den Projektnamen an, der kopiert werden soll: "
 set quelle="X:\%unterverzeichnis%"
 set ziel1="H:\Videos\%unterverzeichnis%"
 set ziel2="H:\Videos"
